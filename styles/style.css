@@ -302,14 +302,17 @@ nav ul{
 /*Footer style*/
 .bg-color{
     background-color: #01ACFD;
+    color: white;
 }
+
 .footer-main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30;
-    justify-content: space-evenly;
-    align-items: center;
+    gap: 30px ;
+    justify-content: space-around;
+    text-align: center;
     height: 519px;
+    
 }
 .information{
     display: flex;
@@ -319,8 +322,15 @@ nav ul{
     margin-left: 0%;
 }
 
+.fm{
+    margin-top: 135px;
+}
+
     
 /*media screen */
-@media screen and (max-width: 576px) {
-    
+@media screen and (max-width: 576px;) {
+    .image{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
 }
