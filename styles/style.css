@@ -181,6 +181,24 @@ nav ul{
     font-size: 16px;
     color: #8700FF;
 }
+/*btn*/
+.cardicon-btn{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.leftsite-btn, .rightsite-btn{
+    border: none;
+    color: white;
+    border-radius: 30px;
+    transition: background 0.3s;
+    cursor: pointer;
+    margin: 0 8px;
+    padding:8px 16px;
+    background-color: #F0AA00 ;
+    font-size: 30px;
+
+}
 /*story*/
 .our-story{
    
@@ -229,7 +247,7 @@ nav ul{
   .store-one-title{
     font-size: 1.4rem;
   }
-  .store-one-des{
+  .store-one-description{
     margin-top: 2.5rem;
    font-size: 20px;
    color: rgba(0, 0, 0, 0.576);
